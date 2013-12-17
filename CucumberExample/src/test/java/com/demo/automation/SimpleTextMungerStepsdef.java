@@ -24,6 +24,9 @@ public class SimpleTextMungerStepsdef {
   public void open_the_browser() {
 
 	  this.driver=new InternetExplorerDriver();
+	  Assert.assertNotNull(driver);
+
+	  
   }
 
   @When("^I open \"([^\"]*)\"$")

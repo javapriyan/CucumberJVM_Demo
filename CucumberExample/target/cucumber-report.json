@@ -1,0 +1,91 @@
+[
+  {
+    "id": "browser-preparation",
+    "description": "",
+    "name": "browser preparation",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "browser-preparation;prepare-the-browser",
+        "description": "",
+        "name": "prepare the browser",
+        "keyword": "Scenario",
+        "line": 2,
+        "steps": [
+          {
+            "name": "a fresh browser window",
+            "keyword": "Given ",
+            "line": 3
+          },
+          {
+            "name": "I open \"www.google.com\"",
+            "keyword": "When ",
+            "line": 4
+          },
+          {
+            "result": {
+              "duration": 60410479,
+              "status": "passed"
+            },
+            "name": "i can see the google home page",
+            "keyword": "Then ",
+            "line": 5,
+            "match": {
+              "location": "SimpleTextMungerStepsdef.I_can_see_the_google_home_page()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "basic_browser_preparation.feature"
+  },
+  {
+    "id": "simple-google-search",
+    "description": "",
+    "name": "simple google search",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "simple-google-search;searching-selenium-project-site",
+        "description": "",
+        "name": "searching selenium project site",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "name": "google home page",
+            "keyword": "Given ",
+            "line": 4
+          },
+          {
+            "name": "I type \"seleniumhq\"",
+            "keyword": "When ",
+            "line": 5
+          },
+          {
+            "name": "I click search button",
+            "keyword": "And ",
+            "line": 6
+          },
+          {
+            "result": {
+              "duration": 5153134941,
+              "status": "passed"
+            },
+            "name": "I can see the term seleniumhq in the result page",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {
+              "location": "SimpleTextMungerStepsdef.I_can_see_the_term_seleniumhq_in_the_result_page()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "search_story.feature"
+  }
+]

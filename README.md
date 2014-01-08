@@ -1,4 +1,4 @@
-CucumberJVM_Demo
+CucumberJVM Demo
 ================
 
 POC on Cucumber JVM
